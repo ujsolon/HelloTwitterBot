@@ -20,8 +20,12 @@ file_lines = my_file.readlines()
 file_lines = file_lines[curr_line]
 
 ##do the tweet here; Hello text is hardcoded
-print(file_lines)
-api.update_status("Hello " +file_lines)
+#api.update_status("Hello " +file_lines)
+if (curr_line%10==0):
+    api.update_status("Hello " +file_lines+"\nContext: https://ujsolon.wordpress.com/2020/02/14/that-time-a-newbie-created-a-twitter-api-app/")
+else:
+    api.update_status(file_lines)
+
 
 ## Close file
 my_file.close()

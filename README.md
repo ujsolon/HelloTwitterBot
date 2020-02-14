@@ -9,7 +9,7 @@
  The word "Hello" is hard coded in the HelloTwitterBot.py file.
  
  Main parts of the code are patterned with
- https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library#keeping-the-twitterbot-running 
+ https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library
 
  FAQS Devs
  https://developer.twitter.com/en/docs/basics/developer-portal/faq
